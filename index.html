@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Pessoal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Minha Página Pessoal</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#artigo">Artigo</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#precos">Preços</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <img src="imagens/james.jpg" alt="Minha Foto" class="foto-perfil">
+        <p>Nome: James Baxter</p>
+        <p>Idade: 56 anos</p>
+        <p>Hobbies: me equilibrar em uma bola, falar meu nome</p>
+    </section>
+
+    <section id="artigo">
+        <div class="article">
+            <h1>Cavalos Podem Ser Mais Inteligentes do Que Se Pensava</h1>
+            <p class="author">Jacqueline Howard</p>
+            <p class="date">12 de agosto de 2024</p>
+        
+            <p>Uma nova pesquisa sugere que cavalos podem ser mais inteligentes do que se pensava e que eles se adaptam rapidamente a um jogo com recompensas e com regras que mudam.</p>
+        
+            <h2>Descobertas Surpreendentes</h2>
+            <p>Cientistas da Trent University (NTU) se disseram surpresos com a velocidade com que cavalos se adaptaram a um jogo — derrubando teorias anteriores de que os cérebros desses animais reagem apenas a estímulos imediatos e não são complexos o suficiente para bolar estratégias.</p>
+        
+            <h2>Impacto no Bem-Estar Animal</h2>
+            <p>As descobertas podem levar a regimes mais humanizados de tratamento de cavalos e melhorias no bem-estar dos animais, segundo os pesquisadores.</p>
+        
+            <h2>Metodologia do Estudo</h2>
+            <p>O estudo envolveu 20 cavalos. Inicialmente, eles eram recompensados com um biscoito ao encostarem seus focinhos em um cartão.</p>
+        
+            <div class="source">
+                Fonte: <a href="https://www.bbc.com/portuguese/articles/cd6y4qpzjjno" target="_blank">BBC News</a>
+            </div>
+        </div>
+        
+        <style>
+            .article {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 20px;
+                background-color: #f9f9f9;
+                padding: 15px;
+                border-radius: 5px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            }
+            .article h1 {
+                color: #2c3e50;
+            }
+            .article h2 {
+                color: #34495e;
+            }
+            .article p {
+                margin: 10px 0;
+            }
+            .article .date {
+                font-style: italic;
+                color: #7f8c8d;
+            }
+            .article .author {
+                font-weight: bold;
+            }
+            .article .source {
+                margin-top: 20px;
+                font-size: 0.9em;
+                color: #2c3e50;
+            }
+        </style>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria de Imagens</h2>
+        <div class="galeria">
+            <img src="imagens/com finn.jpg" alt="Imagem 1">
+            <img src="imagens/foto do insta de james baxter.jpg" alt="Imagem 2">
+            <img src="imagens/viajando.jpg" alt="Imagem 3">
+            <img src="imagens/foto do insta 2.jpg" alt="Imagem 4">
+        </div>
+    </section>
+
+    <section id="precos">
+        <h2>Tabela de Preços</h2>
+        <table>
+            <tr>
+                <th>Show</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>entrada normal</td>
+                <td>R$ 100</td>
+            </tr>
+            <tr>
+                <td>entrada meia</td>
+                <td>R$ 50</td>
+            </tr>
+            <tr>
+                <td>entrada vip</td>
+                <td>R$ 200</td>
+            </tr>
+            <tr>
+                <td>entrada vip meia</td>
+                <td>R$ 100</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="post">
+            <h3>Aventura no pico da neblina</h3>
+            <p>Escalar o Pico da Neblina foi um desafio que me ensinou sobre resiliência e determinação. <br>A vista do topo valeu cada passo!</p>
+            <img src="imagens/pico.jpg">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
